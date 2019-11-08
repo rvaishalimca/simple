@@ -1,0 +1,88 @@
+                                                                                html,
+                                                                            body,
+                                                                            .container {
+                                                                                margin: 0%;
+                                                                                padding: 0%;
+                                                                                height: 100%;
+                                                                                width: 100%;
+                                                                            }
+                                                                            
+                                                                            body {
+                                                                                margin: 0;
+                                                                                font-family: Arial, "Helvetica Neue", Arial, Helvetica, sans-serif;
+                                                                                font-size: 17px;
+                                                                                color: white;
+                                                                                line-height: 1.6;
+                                                                            }
+                                                                            
+                                                                            body h1 {
+                                                                                color: brown;
+                                                                            }
+                                                                            
+                                                                            #showcase {
+                                                                                background-image: url(../images/beach\ home.jpg);
+                                                                                background-repeat: no-repeat;
+                                                                                background-size: cover;
+                                                                                background-position: center;
+                                                                                height: 100vh;
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                                padding: 0 20px;
+                                                                            }
+                                                                            
+                                                                            #showcase h1 {
+                                                                                font-size: 50px;
+                                                                            }
+                                                                            
+                                                                            #showcase p {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            
+                                                                            #showcase .button {
+                                                                                font-size: 18px;
+                                                                                text-decoration: none;
+                                                                                color: greenyellow;
+                                                                                border: white 1px solid;
+                                                                                padding: 10px 20px;
+                                                                                border-radius: 10px;
+                                                                                margin-top: 20px;
+                                                                            }
+                                                                            
+                                                                            #showcase .button:hover {
+                                                                                background: hotpink;
+                                                                                color: blue;
+                                                                            }
+                                                                            
+                                                                            #section-a {
+                                                                                padding: 20px;
+                                                                                background: rosybrown;
+                                                                                color: darkred;
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            #section-b {
+                                                                                padding: 20px;
+                                                                                background: wheat;
+                                                                                color: brown;
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            #section-c {
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            #section-c div {
+                                                                                padding: 20px;
+                                                                            }
+                                                                            
+                                                                            #section-c .box1,
+                                                                            #section-c .box3 {
+                                                                                background: rosybrown;
+                                                                                color: wheat;
+                                                                            }
+                                                                            
+                                                                            #section-c .box2 {
+                                                                                background: white;
+                                                                                color: brown;
